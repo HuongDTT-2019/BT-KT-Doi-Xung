@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+                         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+             <title>Kiem tra doi xung</title>
+</head>
+<body>
+  <script >
+  let s=prompt("nhap vao 1 chuoi");
+  function isPalindrome(s){
+        for(let i=0;i<s.length/2;i++){
+            if(s[i]!=s[s.length-i-1]){
+                return false;
+            }
+        }
+        return true;
+  }
+  console.log(isPalindrome(s));
+</script>
+</body>
+</html>
